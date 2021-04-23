@@ -1,0 +1,43 @@
+:root {
+    --mainWhite: rgb(255 249 0);
+    --mainGreen: #7fb800;
+    --mainBlue: #0d2c54;
+    --lightBlue: #00a6ed;
+    --mainBlack: #191717
+}
+
+.max-height {
+    min-height: 100vh;
+}
+
+body {
+    background: url("../images/download.jpg") center/cover fixed no-repeat;
+    color: var(--mainWhite);
+}
+
+.main-container {
+    border: 0.1rem solid var(--mainWhite);
+    box-shadow: 0 0.5rem 0.5rem rgb(245 228 1 / 90%);;
+    border-radius: 0.2rem;
+}
+
+#counter {
+    color: var(--mainGreen);
+    font-size: 10rem;
+    color: var(--mainBlack);
+}
+
+.prevBtn,
+.nextBtn {
+    box-shadow: 0 0.2rem 0.5rem #d4dad5;
+    background: var(--mainBlue);
+    color: var(--mainWhite);
+}
+
+.prevBtn:hover {
+    background: var(--lightBlue);
+}
+
+.nextBtn:hover {
+    background: var(--lightBlue);
+}
